@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color:#543303;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+}
+header h1{
+    color:floralwhite;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+header h2{
+    color:floralwhite;
+    font-size: 3rem;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.navigation {
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    width: 25%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #543303;
+}
+.navigation li {
+    list-style: none;
+    margin-bottom: 20px; 
+}
+
+.navigation a {
+    text-decoration: none;
+    width: 100%;
+    text-align: center; 
+    padding: 10px 0; 
+    font-size: 2rem;
+    color: floralwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.navigation a:hover {
+    background-color: #575757;
+}
+
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(../assets/cofeeco_background.jpg); /* Ensure the correct path */
+    background-size: cover; /* Ensures the image covers the entire content area */
+    background-position: center; /* Centers the image */
+}
