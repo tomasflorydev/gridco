@@ -2,7 +2,7 @@ body {
     margin: 0px;
     display: grid;
     grid-template-columns: 25% 75%;
-    background-color:#543303;
+    background-color:beige;
 }
 
 header {
@@ -59,7 +59,29 @@ header h2{
 .content {
     grid-column-start: 2;
     grid-column-end: 3;
+    height: 100vh;
+    width: 100%;
     background-image: url(../assets/cofeeco_background.jpg); /* Ensure the correct path */
     background-size: cover; /* Ensures the image covers the entire content area */
     background-position: center; /* Centers the image */
+}
+.about{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: beige;
+    height: 100vh;
+}
+.about h3{
+    color:black;
+    font-size: 3rem;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    align-items: center;
+}
+.about p{
+    font-size: 2rem;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
