@@ -122,6 +122,13 @@ header h2{
     object-fit: cover;
     display: block;
 }
+.menuCardOne div{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menuCardOne div:hover{
+    transform: scale(1.1); /* Expand slightly */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
 .topLeft{
     grid-column-start: 1;
     grid-column-end: 3;
