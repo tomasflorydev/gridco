@@ -12,7 +12,9 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeria">Galería</a></li>
                 <li><a href="#productos">Pedidos online</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </div>
@@ -105,6 +107,12 @@
               </ul>
             </div>
           </div>
+          <section id="galeria">
+            <h2 align="center">Galería</h2>
+            <div class="galeriaGrid">
+                
+            </div>
+          </section>
           <div class="main-content">
             <!-- Product section (Left column) -->
             <div class="productos">
@@ -145,7 +153,7 @@
                     <button class="agregar-carrito" data-nombre="Porta vasos" data-precio="1.50">Agregar al carrito</button>
                 </div>
                 <div class="producto">
-                    <h3>Vasos de café</h3>
+                    <h3>Cafetera Chemex</h3>
                     <p>Precio: $6.50</p>
                     <button class="agregar-carrito" data-nombre="Vasos de café" data-precio="6.50">Agregar al carrito</button>
                 </div>
@@ -165,6 +173,27 @@
         <div id="mensaje-confirmacion" style="display: none;">
             <h2>¡Gracias por su compra!</h2>
             <p>Su pedido ha sido procesado exitosamente.</p>
+        </div>
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <p><strong>Teléfono:</strong> +1 234 567 890</p>
+            <p><strong>Email:</strong> coffee&co@gmail.com</p>
+            <div class="redes-sociales">
+                <h3>Síguenos en:</h3>
+                <a href="https://facebook.com/cafeteria" target="_blank">Facebook</a> |
+                <a href="https://instagram.com/cafeteria" target="_blank">Instagram</a> |
+                <a href="https://twitter.com/cafeteria" target="_blank">Twitter</a> |
+                <a href="https://TikTok.com/cafeteria" target="_blank">TikTok</a>
+            </div>
+            <div class="suscripcion">
+                <h3>Suscríbete para recibir nuestras ofertas</h3>
+                <form id="form-suscripcion">
+                    <label for="email">Ingresa tu email:</label>
+                    <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+                    <button type="submit">Suscribirse</button>
+                </form>
+                <p id="mensaje-suscripcion" style="display: none;">¡Gracias por suscribirte!</p>
+            </div>
         </div>
     </main>
 </body>
