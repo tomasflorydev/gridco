@@ -70,9 +70,9 @@ header h2{
     grid-column-end: 3;
     height: 100vh;
     width: 100%;
-    background-image: url(../assets/cofeeco_background.jpg); /* Ensure the correct path */
-    background-size: cover; /* Ensures the image covers the entire content area */
-    background-position: center; /* Centers the image */
+    background-image: url(../assets/cofeeco_background.jpg); 
+    background-size: cover; 
+    background-position: center; 
 }
 .about{
     grid-column-start: 2;
@@ -134,8 +134,8 @@ header h2{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .menuCards div:hover{
-    transform: scale(1.02); /* Expand slightly */
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    transform: scale(1.02); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
 }
 .topLeft{
     grid-column-start: 1;
@@ -143,8 +143,8 @@ header h2{
     grid-row-start: 1;
     grid-row-end: 2;
     background-image: url(../assets/topleft.png);
-    background-size: cover; /* Ensures the image covers the entire content area */
-    background-position: center; /* Centers the image */
+    background-size: cover; 
+    background-position: center; 
     align-content: center;
     text-align: center;
 }
@@ -171,8 +171,8 @@ header h2{
     grid-row-start: 2;
     grid-row-end: 3;
     background-image: url(../assets/panini.jpg);
-    background-size: cover; /* Ensures the image covers the entire content area */
-    background-position: center; /* Centers the image */
+    background-size: cover; 
+    background-position: center; 
     align-content: center;
     text-align: center;
 }
@@ -204,16 +204,16 @@ header h2{
 }
 .menu-column h2 {
     font-size: 1.8rem;
-    margin-bottom: 10px; /* Space below the heading, above the list */
+    margin-bottom: 10px; 
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
 
-/* Remove list bullet points */
+
 .menu-column ul {
     list-style: none;
-    padding: 0; /* Remove default padding */
+    padding: 0; 
     font-size: 1.4rem;
 }
 #galeria{
@@ -253,7 +253,7 @@ header h2{
 .main-content {
     display: flex;
     gap: 20px;
-    width: 100%; /* Set to desired width */
+    width: 100%; 
     background-image: url(../assets/backgroundAbout.jpg);
     background-size: cover;
     background-position: center;
@@ -261,7 +261,7 @@ header h2{
     border-radius: 10px;
 }
 
-/* Shared styling for products and cart sections */
+
 .productos, .carrito {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -270,13 +270,13 @@ header h2{
     height: 100vh;
 }
 
-/* Section titles */
+
 h2 {
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
-/* Product styling */
+
 .producto {
     border-bottom: 1px solid floralwhite;
     padding: 10px 0;
@@ -292,7 +292,7 @@ h2 {
     margin: 5px 0;
 }
 
-/* Button styling for "Agregar al carrito" */
+
 button.agregar-carrito {
     background-color: #8b4513;
     color: floralwhite;
@@ -308,7 +308,7 @@ button.agregar-carrito:hover {
     background-color: #a0522d;
 }
 
-/* Cart section styling */
+
 .carrito ul {
     list-style: none;
     padding: 0;
@@ -336,7 +336,7 @@ button.agregar-carrito:hover {
     background-color: #704c42;
 }
 
-/* Confirmation message styling */
+
 #mensaje-confirmacion {
     background-color: rgba(34, 139, 34, 0.9);
     color: floralwhite;
@@ -350,7 +350,7 @@ button.agregar-carrito:hover {
     font-size: 2rem;
     margin-bottom: 10px;
 }
-/* Contact section styling */
+
 #contacto {
     background-color: rgba(255, 255, 255, 0.1);
     color: black;
@@ -360,7 +360,7 @@ button.agregar-carrito:hover {
     height: 100vh;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../assets/backgroundAbout.jpg);  /* same background */
+    background-image: url(../assets/backgroundAbout.jpg);  
     background-size: cover;
     background-position: center;
     display: flex;
@@ -368,7 +368,7 @@ button.agregar-carrito:hover {
     gap: 20px;
 }
 
-/* Contact title */
+
 #contacto h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
@@ -376,7 +376,7 @@ button.agregar-carrito:hover {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* Contact details section */
+
 #contacto p {
     font-size: 1.5rem;
     margin: 10px 0;
@@ -386,7 +386,7 @@ button.agregar-carrito:hover {
     font-weight: bold;
 }
 
-/* Social media links */
+
 .redes-sociales {
     margin: 20px 0;
 }
@@ -408,7 +408,7 @@ button.agregar-carrito:hover {
     color: #8b4513;
 }
 
-/* Subscription section */
+
 .suscripcion {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
@@ -454,8 +454,6 @@ button.agregar-carrito:hover {
 .suscripcion button:hover {
     background-color: #a0522d;
 }
-
-
 #mensaje-suscripcion {
     margin-top: 20px;
     font-size: 1.2rem;
