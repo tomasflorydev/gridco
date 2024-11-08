@@ -55,4 +55,19 @@ $(document).ready(function() {
         actualizarCarrito();
     });
 });
+$(document).ready(function() {
+    // Funcionalidad para suscribirse
+    $("#form-suscripcion").submit(function(event) {
+        event.preventDefault();  // Evita el envío real del formulario
 
+        const email = $("#email").val();
+
+        if (email) {
+            // Aquí podrías agregar una solicitud AJAX para enviar el email al servidor.
+            $("#mensaje-suscripcion").show().text("¡Gracias por suscribirte!");
+            $("#email").val('');  // Limpia el campo de email
+        } else {
+            $("#mensaje-suscripcion").show().text("Por favor, ingresa un email válido.");
+        }
+    });
+});
