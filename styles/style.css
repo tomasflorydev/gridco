@@ -212,3 +212,103 @@ header h2{
     padding: 0; /* Remove default padding */
     font-size: 1.4rem;
 }
+.main-content {
+    display: flex;
+    gap: 20px;
+    width: 100%; /* Set to desired width */
+    max-width: 1200px;
+    background-image: url(../assets/backgroundAbout.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Shared styling for products and cart sections */
+.productos, .carrito {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+/* Section titles */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Product styling */
+.producto {
+    border-bottom: 1px solid floralwhite;
+    padding: 10px 0;
+}
+
+.producto h3 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.producto p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Button styling for "Agregar al carrito" */
+button.agregar-carrito {
+    background-color: #8b4513;
+    color: floralwhite;
+    font-size: 1rem;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.agregar-carrito:hover {
+    background-color: #a0522d;
+}
+
+/* Cart section styling */
+.carrito ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#total-carrito {
+    font-weight: bold;
+}
+
+#vaciar-carrito, #finalizar-compra {
+    background-color: #5c4033;
+    color: floralwhite;
+    font-size: 1rem;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#vaciar-carrito:hover, #finalizar-compra:hover {
+    background-color: #704c42;
+}
+
+/* Confirmation message styling */
+#mensaje-confirmacion {
+    background-color: rgba(34, 139, 34, 0.9);
+    color: floralwhite;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#mensaje-confirmacion h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

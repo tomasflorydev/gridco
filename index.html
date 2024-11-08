@@ -12,8 +12,7 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="">Pedidos online</a></li>
-                <li><a href="">Galería</a></li>
+                <li><a href="#productos">Pedidos online</a></li>
             </ul>
         </nav>
     </div>
@@ -106,6 +105,67 @@
               </ul>
             </div>
           </div>
+          <div class="main-content">
+            <!-- Product section (Left column) -->
+            <div class="productos">
+                <h2>Productos de Café</h2>
+                <div class="producto">
+                    <h3>Tazas</h3>
+                    <p>Precio: $2.00</p>
+                    <button class="agregar-carrito" data-nombre="Tazas" data-precio="2.00">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Cafeteras</h3>
+                    <p>Precio: $8.50</p>
+                    <button class="agregar-carrito" data-nombre="Cafeteras" data-precio="8.50">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Granos de café</h3>
+                    <p>Precio: $3.00</p>
+                    <button class="agregar-carrito" data-nombre="Granos de Café" data-precio="3.00">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Filtros de café</h3>
+                    <p>Precio: $4.50</p>
+                    <button class="agregar-carrito" data-nombre="Filtros de Café" data-precio="4.50">Agregar al carrito</button>
+                </div>
+            </div>
+    
+            <!-- Product section (Right column) -->
+            <div class="productos">
+                <h2>Otros Productos</h2>
+                <div class="producto">
+                    <h3>Set de platos y tazas x6</h3>
+                    <p>Precio: $10.00</p>
+                    <button class="agregar-carrito" data-nombre="Set de platos y tazas x6" data-precio="10.00">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Porta vasos</h3>
+                    <p>Precio: $1.50</p>
+                    <button class="agregar-carrito" data-nombre="Porta vasos" data-precio="1.50">Agregar al carrito</button>
+                </div>
+                <div class="producto">
+                    <h3>Vasos de café</h3>
+                    <p>Precio: $6.50</p>
+                    <button class="agregar-carrito" data-nombre="Vasos de café" data-precio="6.50">Agregar al carrito</button>
+                </div>
+            </div>
+    
+            <!-- Cart section -->
+            <div class="carrito">
+                <h2>Carrito de Compras</h2>
+                <ul id="lista-carrito"></ul>
+                <p>Total: $<span id="total-carrito">0.00</span></p>
+                <button id="vaciar-carrito">Vaciar Carrito</button>
+                <button id="finalizar-compra">Finalizar Compra</button>
+            </div>
+        </div>
+    
+        <!-- Confirmation message -->
+        <div id="mensaje-confirmacion" style="display: none;">
+            <h2>¡Gracias por su compra!</h2>
+            <p>Su pedido ha sido procesado exitosamente.</p>
+        </div>
     </main>
 </body>
 </html>
