@@ -248,6 +248,7 @@ header h2{
     height: 100%;
     object-fit: cover;
     display: block;
+    overflow: hidden;
 }
 .main-content {
     display: flex;
@@ -454,10 +455,32 @@ button.agregar-carrito:hover {
     background-color: #a0522d;
 }
 
-/* Subscription confirmation message */
+
 #mensaje-suscripcion {
     margin-top: 20px;
     font-size: 1.2rem;
     color: #32cd32;
     font-weight: bold;
+}
+@media all and (max-width: 767px) {
+    .navigation{
+        width: 100vw;
+        display: none;
+    }
+    body{
+        width: 100vw;
+        height: auto;
+    }
+    .galleryCards{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(4, 25%);
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding: 10px;
+        border-radius: 2.5px;
+    }
 }
